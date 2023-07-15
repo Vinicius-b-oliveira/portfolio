@@ -8,6 +8,8 @@
 }
 
 :root {
+    --fonte-sans: font-family: 'Inter', sans-serif;
+    --fonte-mono: font-family: 'Fira Code', monospace;
     --fonte-pequena: 1.4rem;
     --fonte-media: 1.6rem;
     --fonte-grande: 2rem;
