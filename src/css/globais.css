@@ -14,12 +14,38 @@ body {
 }
 
 .container {
-    max-width: 1600px;
-    padding: 20px 0;
+    max-width: 1300px;
+    padding: 0 50px;
     margin: 0 auto;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.redes-sociais a{
+    font-size: 1.8rem;
+    color: var(--cor-fonte-clara);
+    border: 2px solid var(--cor-fonte-clara);
+    border-radius: 50%;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out;
+}
+
+.redes-sociais a:hover {
+    color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+    transform: translateY(-3px);
 }
