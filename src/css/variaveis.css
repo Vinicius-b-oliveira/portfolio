@@ -8,9 +8,9 @@
 }
 
 :root {
-    --fonte-sans: font-family: 'Inter', sans-serif;
-    --fonte-mono: font-family: 'Fira Code', monospace;
-    --fonte-logo: font-family: 'Lily Script One', cursive;
+    --fonte-sans: 'Inter', sans-serif;
+    --fonte-mono: 'Fira Code', monospace;
+    --fonte-logo: 'Lily Script One', cursive;
     --fonte-pequena: 1.4rem;
     --fonte-media: 1.6rem;
     --fonte-grande: 2rem;
