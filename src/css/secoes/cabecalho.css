@@ -1,0 +1,160 @@
+.cabecalho {
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.cabecalho .logo {
+    color: var(--cor-destaque);
+    border: 2px solid var(--cor-destaque);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    cursor: default;
+    transition: .3s ease;
+}
+
+.cabecalho .logo h2 {
+    font-size: var(--fonte-gigante);
+    font-family: var(--fonte-logo);
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.cabecalho .logo:hover {
+    transform: translate(-3px, -3px);
+}
+
+.cabecalho .menu {
+    gap: 15px;
+}
+
+.cabecalho .menu li {
+    transition: all .3s ease-in-out;
+}
+
+.cabecalho .menu a {
+    padding: 10px 20px;
+    color: var(--cor-destaque);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.cabecalho .menu li.destaque a{
+    background-color: var(--cor-destaque);
+    border: 2px solid var(--cor-destaque);
+    color: var(--fonte-clara);
+    font-weight: 700;
+    border-radius: 15px;
+    margin-left: 50px;
+    transition: .3s ease-in-out;
+}
+
+.cabecalho .menu li.destaque:hover a{
+    color: var(--cor-destaque);
+    background: transparent;
+}
+
+.cabecalho .menu li:not(.destaque):hover {
+    transform: translateY(-5px)
+}
+
+.cabecalho nav input {
+    display: none;
+}
+
+.cabecalho nav label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cabecalho .hamburguer {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.cabecalho .hamburguer .linhas {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    background-color: var(--cor-destaque);
+    transition: .3s ease-in-out;
+}
+
+.cabecalho .hamburguer .linhas::before,
+.cabecalho .hamburguer .linhas::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-destaque);
+    transition: .3s ease-in-out;
+}
+
+.cabecalho .hamburguer .linhas::before {
+    top: -10px;
+}
+
+.cabecalho .hamburguer .linhas::after {
+    bottom: -10px;
+}
+
+.cabecalho nav input:checked ~ label .linhas {
+    transform: rotate(45deg);
+}
+
+.cabecalho nav input:checked ~ label .linhas:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.cabecalho nav input:checked ~ label .linhas:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+@media (max-width: 1000px) {
+    .cabecalho .hamburguer {
+        display: block;
+    }
+
+    .cabecalho nav input:checked ~ .menu {
+        display: block;
+    }
+
+    .cabecalho nav {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .cabecalho nav .menu {
+        display: none;
+        background-color: var(--cor-fundo-claro);
+        padding: 20px;
+    }
+
+    .cabecalho nav .menu a {
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .cabecalho .menu li.destaque a {
+        margin-left: 0;
+    }
+}
