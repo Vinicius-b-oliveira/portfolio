@@ -1,0 +1,43 @@
+.home .img-container{
+    background: repeating-conic-gradient(from var(--a),#64FFDA 0%, #64FFDA 5%, transparent 5%, transparent 40%, #64FFDA 50%);
+    animation: border-animation 4s linear infinite, floating-image 7s infinite;
+}
+
+@property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes border-animation {
+    0% {
+        --a: 0deg
+    }
+
+    100% {
+        --a: 360deg
+    }
+}
+
+@keyframes floating-image{
+    0% {
+        -webkit-transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(-50px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+.home .img-container::after {
+    content: '';
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    inset: 5px;
+    background-color: #020C1B;
+}
