@@ -46,6 +46,7 @@
     color: var(--cor-destaque);
     font-size: 1.8rem;
     font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .cabecalho .menu li.destaque a{
