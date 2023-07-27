@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Este é o meu portfolio pessoal. Busco por uma vaga na área de programação Web Frontend e meu objetivo com esse site é criar uma porta de entrada para que os recrutadores conheçam minhas habilidades">
+    <meta name="description"
+        content="Este é o meu portfolio pessoal. Busco por uma vaga na área de programação Web Frontend e meu objetivo com esse site é criar uma porta de entrada para que os recrutadores conheçam minhas habilidades">
     <title>Portfolio - Vinícius Bueno</title>
 
     <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
@@ -42,29 +43,66 @@
                 <li><a href="#sobre-mim">Sobre Mim</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li class="destaque"><a href="#contato" >Contato</a></li>
+                <li class="destaque"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="home container flex" id="home">
-        <div class="apresentacao">
-            <h4>Olá, me chamo</h2>
-            <h1>Vinícius Bueno de Oliveira</h1>
-            <h2>Desenvolvedor Web <span class="destaque">Frontend</span></h2>
+    <main>
+        <section class="home container flex" id="home">
+            <div class="apresentacao">
+                <h4>Olá, me chamo</h2>
+                    <h1>Vinícius Bueno de Oliveira</h1>
+                    <h2>Desenvolvedor Web <span class="destaque">Frontend</span></h2>
 
-            <div class="redes-sociais">
-                <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <div class="redes-sociais">
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
             </div>
-        </div>
 
-        <div class="img-container">
-            <img src="./src/img/avatar.png" alt="Imagem do avatar" class="avatar">
-        </div>
-    </section>
+            <div class="img-container">
+                <img src="./src/img/avatar.png" alt="Imagem do avatar" class="avatar">
+            </div>
+        </section>
+
+        <picture> <!-- Imagens para a divisão não "quebrar" no responsivo -->
+            <source media="(min-width: 1800px)" srcset="./src/img/div_img/top_div_1980.svg">
+            <source media="(min-width: 1680px)" srcset="./src/img/div_img/top_div_1680.svg">
+            <source media="(min-width: 1280px)" srcset="./src/img/div_img/top_div_1280.svg">
+            <source media="(min-width: 980px)" srcset="./src/img/div_img/top_div_980.svg">
+            <source media="(min-width: 728px)" srcset="./src/img/div_img/top_div_728.svg">
+            <source media="(min-width: 528px)" srcset="./src/img/div_img/top_div_528.svg">
+            <img src="./src/img/div_img/top_div_328.svg" alt="divisão" class="top_div">
+        </picture>
+
+        <section class="sobre-mim container flex" id="sobre-mim">
+            <div class="img-container">
+                <img src="./src/img/avatar.png" alt="Imagem do avatar" class="avatar">
+            </div>
+
+            <div class="sobre">
+                <h2>Sobre <span class="destaque">Mim</span></h2>
+                <h3>Desenvolvedor Frontend</h3>
+                <p class="texto-sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita neque similique distinctio quis, nihil voluptate vitae labore accusantium! Consequatur vitae ab, vel odit sit adipisci. Culpa eaque iure libero autem?</p>
+
+                <a href="#" class="link-curriculo">Veja meu CV</a>
+            </div>
+        </section>
+
+        <picture> <!-- Imagens para a divisão não "quebrar" no responsivo -->
+            <source media="(min-width: 1800px)" srcset="./src/img/div_img/bottom_div_1980.svg">
+            <source media="(min-width: 1680px)" srcset="./src/img/div_img/bottom_div_1680.svg">
+            <source media="(min-width: 1280px)" srcset="./src/img/div_img/bottom_div_1280.svg">
+            <source media="(min-width: 980px)" srcset="./src/img/div_img/bottom_div_980.svg">
+            <source media="(min-width: 728px)" srcset="./src/img/div_img/bottom_div_728.svg">
+            <source media="(min-width: 528px)" srcset="./src/img/div_img/bottom_div_528.svg">
+            <img src="./src/img/div_img/top_div_328.svg" alt="divisão" class="bottom_div">
+        </picture>
+
+    </main>
 </body>
 
 </html>
