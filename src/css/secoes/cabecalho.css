@@ -57,6 +57,7 @@
     border-radius: 15px;
     margin-left: 50px;
     transition: .3s ease-in-out;
+    letter-spacing: 1px;
 }
 
 .cabecalho .menu li.destaque:hover a{
@@ -128,7 +129,7 @@
     bottom: 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .cabecalho .hamburguer {
         display: block;
     }

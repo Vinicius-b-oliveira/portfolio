@@ -81,6 +81,10 @@ picture img {
 }
 
 @media(max-width: 1150px) {
+    .sobre-mim .titulo-secao {
+        text-align: center;
+    }
+
     .sobre-mim .container-conteudo .img-container {
         margin-bottom: 40px;
     }
