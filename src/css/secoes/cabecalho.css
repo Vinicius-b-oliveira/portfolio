@@ -63,6 +63,7 @@
 .cabecalho .menu li.destaque:hover a{
     color: var(--cor-destaque);
     background: transparent;
+    box-shadow: 0 0 5px var(--cor-destaque);
 }
 
 .cabecalho .menu li:not(.destaque):hover {

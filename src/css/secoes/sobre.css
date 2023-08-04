@@ -73,11 +73,13 @@ picture img {
     font-family: var(--fonte-sans);
     border: 2px solid var(--cor-destaque);
     transition: .3s ease-in;
+    box-shadow: 0 0 10px var(--cor-destaque);
 }
 
 .sobre-mim .container-conteudo .sobre .btn-curriculo:hover {
     background-color: var(--cor-fundo-claro);
     color: var(--cor-destaque);
+    box-shadow: 0 0 5px var(--cor-destaque);
 }
 
 @media(max-width: 1150px) {
