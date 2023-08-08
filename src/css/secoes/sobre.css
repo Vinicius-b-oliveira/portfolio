@@ -4,6 +4,10 @@ picture img {
     background-color: var(--cor-fundo-claro);
 }
 
+.esconder-fundo {
+    background-color: transparent;
+}
+
 #sobre-mim {
     background-color: var(--cor-fundo-claro);
 }
