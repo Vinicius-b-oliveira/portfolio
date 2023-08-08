@@ -1,0 +1,59 @@
+#habilidades .titulo-secao {
+    margin: 100px 0 100px;
+    font-size: 5rem;
+    color: var(--cor-fonte-clara);
+    font-family: var(--fonte-sans);
+    text-align: center;
+}
+
+.habilidades {
+    justify-content: center;
+    gap: 30px;
+}
+
+.habilidades .card-linguagem {
+    background-color: var(--cor-fundo-claro);
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .2s ease-in-out;
+    cursor: default;
+    border: 2px solid transparent;
+}
+.habilidades .card-linguagem .icone {
+    color: var(--cor-destaque);
+}
+
+.habilidades .card-linguagem .titulo-linguagem,
+.habilidades .card-linguagem .descricao-linguagem {
+    color: var(--cor-fonte-clara);
+}
+
+.habilidades .card-linguagem .icone {
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+
+.habilidades .card-linguagem .titulo-linguagem {
+    font-family: var(--fonte-sans);
+    font-weight: 700;
+    font-size: var(--fonte-grande);
+    margin-bottom: 30px;
+}
+
+.habilidades .card-linguagem .descricao-linguagem {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.habilidades .card-linguagem:hover {
+    transform: scale(1.05);
+    background-color: #152B51;
+    box-shadow: 0 0 30px #000000;
+    border: 2px solid var(--cor-destaque);
+}
