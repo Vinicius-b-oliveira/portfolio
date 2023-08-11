@@ -1,0 +1,13 @@
+.rodape {
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background-color: var(--cor-fundo-claro);
+    gap: 30px;
+}
+
+.rodape h3 {
+    color: var(--cor-fonte-clara);
+    font-size: var(--fonte-extra-grande);
+    font-family: var(--fonte-sans);
+}
