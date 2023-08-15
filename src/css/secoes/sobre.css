@@ -12,19 +12,15 @@ picture img {
     background-color: var(--cor-fundo-claro);
 }
 
+#sobre-mim .titulo-secao {
+    margin: 0 0 80px;
+}
+
 .sobre-mim {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
     padding: 80px 50px;
-}
-
-.sobre-mim .titulo-secao{
-    font-family: var(--fonte-sans);
-    font-size: 4.5rem;
-    color: var(--cor-fonte-clara);
-    font-weight: 800;
 }
 
 .container-conteudo {
@@ -52,7 +48,7 @@ picture img {
     flex: 0 1 700px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 20px;
 }
 
 .sobre-mim .container-conteudo .sobre .texto-sobre {
@@ -64,17 +60,22 @@ picture img {
     font-weight: 500;
 }
 
+.sobre-mim .container-conteudo .sobre .texto-sobre .destaque{
+    color: var(--cor-destaque);
+}
+
 .sobre-mim .container-conteudo .sobre .btn-curriculo {
     background-color: var(--cor-destaque);
     width: fit-content;
     position: relative;
+    top: 20px;
     left: 20px;
     padding: 15px 25px;
     border-radius: 20px;
     color: var(--cor-fundo-escuro);
     font-size: var(--fonte-grande);
     font-weight: 700;
-    font-family: var(--fonte-sans);
+    font-family: var(--fonte-text);
     border: 2px solid var(--cor-destaque);
     transition: .3s ease-in;
     box-shadow: 0 0 10px var(--cor-destaque);

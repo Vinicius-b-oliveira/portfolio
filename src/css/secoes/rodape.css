@@ -9,5 +9,5 @@
 .rodape h3 {
     color: var(--cor-fonte-clara);
     font-size: var(--fonte-extra-grande);
-    font-family: var(--fonte-sans);
+    font-family: var(--fonte-text);
 }

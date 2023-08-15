@@ -20,13 +20,13 @@
 
 .home .apresentacao h1 {
     color: var(--cor-fonte-clara);
-    font-family: var(--fonte-sans);
+    font-family: var(--fonte-text);
     font-size: 4rem;
 }
 
 .home .apresentacao h2 {
     color: var(--cor-fonte-media);
-    font-family: var(--fonte-sans);
+    font-family: var(--fonte-text);
     font-size: var(--fonte-gigante);
     margin-bottom: 30px;
 }
