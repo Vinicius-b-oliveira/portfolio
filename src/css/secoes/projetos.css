@@ -84,7 +84,7 @@
         transform: translateY(350px);
         max-height: 140px;
         overflow-y: scroll;
-        padding-top: 30px;
+        margin-top: 15px;
     }
 
     .projeto .informacoes-projeto .titulo-projeto {
