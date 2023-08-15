@@ -78,3 +78,25 @@
 .container-projetos .projeto:hover .informacoes-projeto {
     transform: translateY(0);
 }
+
+@media (max-width: 375px) {
+    .container-projetos .projeto .informacoes-projeto {
+        transform: translateY(350px);
+        max-height: 140px;
+        overflow-y: scroll;
+        padding-top: 15px;
+    }
+
+    .projeto .informacoes-projeto .titulo-projeto {
+        font-size: var(--fonte-grande);
+        font-weight: 800;
+        font-family: var(--fonte-text);
+        margin-bottom: 10px;
+    }
+
+    .projeto .informacoes-projeto .descricao-projeto {
+        font-weight: 500;
+        font-size: var(--fonte-pequena);
+        margin-bottom: 20px;
+    }
+}

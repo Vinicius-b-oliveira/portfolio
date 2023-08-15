@@ -58,3 +58,15 @@ body {
     font-family: var(--fonte-text);
     text-align: center;
 }
+
+@media (max-width: 400px) {
+    .titulo-secao {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .titulo-secao {
+        font-size: 3rem;
+    }
+}

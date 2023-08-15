@@ -10,4 +10,5 @@
     color: var(--cor-fonte-clara);
     font-size: var(--fonte-extra-grande);
     font-family: var(--fonte-text);
+    text-align: center;
 }
