@@ -31,8 +31,10 @@
     margin-bottom: 30px;
 }
 
-.home .apresentacao .destaque {
+.home .apresentacao .destaque-titulo {
     text-decoration: underline;
+    color: var(--cor-destaque);
+    font-weight: 500;
 }
 
 .home .img-container {

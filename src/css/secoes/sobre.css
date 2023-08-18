@@ -60,7 +60,7 @@ picture img {
     font-weight: 500;
 }
 
-.sobre-mim .container-conteudo .sobre .texto-sobre .destaque{
+.sobre-mim .container-conteudo .sobre .texto-sobre .destaque-texto{
     color: var(--cor-destaque);
 }
 
@@ -88,10 +88,6 @@ picture img {
 }
 
 @media(max-width: 1150px) {
-    .sobre-mim .titulo-secao {
-        text-align: center;
-    }
-
     .sobre-mim .container-conteudo .img-container {
         margin-bottom: 40px;
     }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Este é o meu portfolio pessoal. Busco por uma vaga na área de programação Web Frontend e meu objetivo com esse site é criar uma porta de entrada para que os recrutadores conheçam minhas habilidades">
+        content="Este é o meu portfolio pessoal. Busco por uma vaga na área de programação Web Frontend e meu objetivo com esse site é criar uma porta de entrada para que recrutadores conheçam minhas habilidades">
     <title>Portfolio - Vinícius Bueno</title>
 
     <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
@@ -47,7 +47,7 @@
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#rodape">Contato</a></li>
-                <li class="destaque"><a href="#">Me Contrate!</a></li>
+                <li class="destaque-btn"><a href="#">Me Contrate!</a></li>
             </ul>
         </nav>
     </header>
@@ -57,7 +57,7 @@
             <div class="apresentacao">
                 <h4>Olá, me chamo</h4>
                 <h1>Vinícius Bueno de Oliveira</h1>
-                <h2>Desenvolvedor Web <span class="destaque">Frontend</span></h2>
+                <h2>Desenvolvedor Web <span class="destaque-titulo">Frontend</span></h2>
 
                 <div class="redes-sociais">
                     <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -92,7 +92,7 @@
                     </div>
 
                     <div class="sobre">
-                        <p class="texto-sobre"><strong class="destaque">Olá, me chamo Vinícius Bueno de Oliveira e atualmente estou estudando programação frontend.</strong> Sempre me interessei muito pela área e de um tempo pra cá vi também meu futuro nela, por esse motivo, passei a me dedicar cada vez mais a aprender novas linguagens e atualizar-me de acordo com o que o mercado procura.</p>
+                        <p class="texto-sobre"><strong class="destaque-texto">Olá, me chamo Vinícius Bueno de Oliveira e atualmente estou estudando programação frontend.</strong> Sempre me interessei muito pela área e de um tempo pra cá vi também meu futuro nela, por esse motivo, passei a me dedicar cada vez mais a aprender novas linguagens e atualizar-me de acordo com o que o mercado procura.</p>
 
                         <p class="texto-sobre">Dessa forma, tenho certeza que poderei contribuir em qualquer equipe de desenvolvimento, pois sempre busco solucionar novos desafios e aprimorar minhas habilidades de trabalho em grupos.</p>
 
@@ -115,24 +115,24 @@
         <section class="container" id="habilidades">
             <h2 class="titulo-secao">Habilidades</h2>
 
-            <div class="habilidades flex">
-                <div class="card-linguagem">
+            <ul class="habilidades flex">
+                <li class="card-linguagem">
                     <i class="devicon-html5-plain icone"></i>
 
                     <h3 class="titulo-linguagem">HTML 5</h3>
 
                     <p class="descricao-linguagem">Estruturar sites utilizando tags semânticas para aprimorar o reconhecimento e o rastreio do site pelos mecanismos de busca</p>
-                </div>
+                </li>
 
-                <div class="card-linguagem">
+                <li class="card-linguagem">
                     <i class="devicon-css3-plain icone"></i>
 
                     <h3 class="titulo-linguagem">CSS 3</h3>
 
                     <p class="descricao-linguagem">Estilizar sites utilizando tecnicas mais eficientes de display, como flex e grid, além do dominio das media querry facilitando a responsividade</p>
-                </div>
+                </li>
 
-                <div class="card-linguagem">
+                <li class="card-linguagem">
                     <i class="devicon-javascript-plain icone"></i>
 
                     <h3 class="titulo-linguagem">JavaScript</h3>
@@ -140,31 +140,31 @@
                     <p class="descricao-linguagem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima autem
                         voluptatibus nisi libero quibusdam ipsum fugit totam qui ex debitis in et odio ea excepturi
                         aliquid, magni ullam molestias nulla?</p>
-                </div>
+                </li>
 
-                <div class="card-linguagem">
+                <li class="card-linguagem">
                     <i class="devicon-git-plain icone"></i>
 
                     <h3 class="titulo-linguagem">Git</h3>
 
                     <p class="descricao-linguagem">Dominio do sistema de versionamento de código através do terminal</p>
-                </div>
+                </li>
 
-                <div class="card-linguagem">
+                <li class="card-linguagem">
                     <i class="devicon-github-original icone"></i>
 
                     <h3 class="titulo-linguagem">GitHub</h3>
 
                     <p class="descricao-linguagem">Conhecimento da plataforma e habilidade de gerenciar projetos próprios ou ajudar outros desenvolvedores com seus projetos</p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </section>
 
         <section class="projetos container" id="projetos">
             <h2 class="titulo-secao">Projetos</h2>
 
-            <div class="container-projetos flex">
-                <div class="projeto">
+            <ul class="container-projetos flex">
+                <li class="projeto">
                     <img src="./src/img/projetos/coin_lp.png" alt="Imagem do Projeto" class="projeto-img">
 
                     <div class="fundo-hover"></div>
@@ -175,9 +175,9 @@
                             facere qui fugiat reprehenderit nam, quibusdam, veritatis ipsa eveniet inventore.</p>
                         <a href="https://vinicius-b-oliveira.github.io/landing-page-practice/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                </div>
+                </li>
 
-                <div class="projeto">
+                <li class="projeto">
                     <img src="./src/img/projetos/advice_generator.png" alt="Imagem do Projeto" class="projeto-img">
 
                     <div class="fundo-hover"></div>
@@ -188,9 +188,9 @@
                             facere qui fugiat reprehenderit nam, quibusdam, veritatis ipsa eveniet inventore.</p>
                         <a href="https://vinicius-b-oliveira.github.io/advice-generator-html-css-only/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                </div>
+                </li>
 
-                <div class="projeto">
+                <li class="projeto">
                     <img src="./src/img/projetos/huddle_lp.png" alt="Imagem do Projeto" class="projeto-img">
 
                     <div class="fundo-hover"></div>
@@ -201,9 +201,9 @@
                             facere qui fugiat reprehenderit nam, quibusdam, veritatis ipsa eveniet inventore.</p>
                         <a href="https://vinicius-b-oliveira.github.io/quest-huddle-lp/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                </div>
+                </li>
 
-                <div class="projeto">
+                <li class="projeto">
                     <img src="./src/img/projetos/nft_card.png" alt="Imagem do Projeto" class="projeto-img">
 
                     <div class="fundo-hover"></div>
@@ -214,9 +214,9 @@
                             facere qui fugiat reprehenderit nam, quibusdam, veritatis ipsa eveniet inventore.</p>
                         <a href="https://vinicius-b-oliveira.github.io/nft-card/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                </div>
+                </li>
 
-                <div class="projeto">
+                <li class="projeto">
                     <img src="./src/img/projetos/pokemon.png" alt="Imagem do Projeto" class="projeto-img">
 
                     <div class="fundo-hover"></div>
@@ -227,9 +227,9 @@
                             facere qui fugiat reprehenderit nam, quibusdam, veritatis ipsa eveniet inventore.</p>
                         <a href="https://vinicius-b-oliveira.github.io/projeto-pokemon/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                </div>
+                </li>
 
-                <div class="projeto">
+                <li class="projeto">
                     <img src="./src/img/projetos/profile_card.png" alt="Imagem do Projeto" class="projeto-img">
 
                     <div class="fundo-hover"></div>
@@ -240,8 +240,8 @@
                             facere qui fugiat reprehenderit nam, quibusdam, veritatis ipsa eveniet inventore.</p>
                         <a href="https://vinicius-b-oliveira.github.io/profile-card/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </section>
     </main>
 

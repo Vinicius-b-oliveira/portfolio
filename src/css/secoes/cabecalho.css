@@ -18,7 +18,6 @@
     justify-content: center;
     width: 60px;
     height: 60px;
-    cursor: default;
     transition: .3s ease;
 }
 
@@ -49,7 +48,7 @@
     letter-spacing: 2px;
 }
 
-.cabecalho .menu li.destaque a{
+.cabecalho .menu li.destaque-btn a{
     background-color: var(--cor-destaque);
     border: 2px solid var(--cor-destaque);
     color: var(--fonte-clara);
@@ -60,14 +59,15 @@
     letter-spacing: 1px;
 }
 
-.cabecalho .menu li.destaque:hover a{
+.cabecalho .menu li.destaque-btn:hover a{
     color: var(--cor-destaque);
     background: transparent;
     box-shadow: 0 0 5px var(--cor-destaque);
 }
 
-.cabecalho .menu li:not(.destaque):hover {
-    transform: translateY(-5px)
+.cabecalho .menu li:not(.destaque-btn):hover {
+    transform: translateY(-5px);
+    text-decoration: underline var(--cor-destaque) 2px;
 }
 
 .cabecalho nav input {
@@ -158,7 +158,7 @@
         display: block;
     }
 
-    .cabecalho .menu li.destaque a {
+    .cabecalho .menu li.destaque-btn a {
         margin-left: 0;
     }
 }
