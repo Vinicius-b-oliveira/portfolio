@@ -35,6 +35,7 @@
 
 .container-projetos .projeto .informacoes-projeto {
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     text-align: center;
     position: absolute;
