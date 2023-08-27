@@ -53,18 +53,18 @@
     </header>
 
     <main>
-        <section class="home container flex" id="home">
+        <section class="home container flex">
             <div class="apresentacao">
                 <h4>Olá, me chamo</h4>
                 <h1>Vinícius Bueno de Oliveira</h1>
                 <h2>Desenvolvedor Web <span class="destaque-titulo">Frontend</span></h2>
 
-                <div class="redes-sociais">
-                    <a href="https://www.linkedin.com/in/vinicius-bueno-0808a1289" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://wa.me/5547997082903" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="https://github.com/Vinicius-b-oliveira" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/vini_bueno/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+                <ul class="redes-sociais">
+                    <li><a href="https://www.linkedin.com/in/vinicius-bueno-0808a1289" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://wa.me/5547997082903" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://github.com/Vinicius-b-oliveira" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/vini_bueno/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
             </div>
 
             <div class="img-container">
@@ -86,12 +86,12 @@
             <div class="sobre-mim container">
                 <h2 class="titulo-secao">Sobre Mim</h2>
 
-                <div class="container-conteudo">
+                <div class="container-conteudo flex">
                     <div class="img-container">
                         <img src="./src/img/avatar-azul.png" alt="Imagem do avatar">
                     </div>
 
-                    <div class="sobre">
+                    <div class="sobre flex">
                         <p class="texto-sobre"><strong class="destaque-texto">Olá, me chamo Vinícius Bueno de Oliveira e atualmente estou estudando programação frontend.</strong> Sempre me interessei muito pela área e de um tempo pra cá vi também meu futuro nela, por esse motivo, passei a me dedicar cada vez mais a aprender novas linguagens e atualizar-me de acordo com o que o mercado procura.</p>
 
                         <p class="texto-sobre">Dessa forma, tenho certeza que poderei contribuir em qualquer equipe de desenvolvimento, pois sempre busco solucionar novos desafios e aprimorar minhas habilidades de trabalho em grupos.</p>
@@ -116,7 +116,7 @@
             <h2 class="titulo-secao">Habilidades</h2>
 
             <ul class="habilidades flex">
-                <li class="card-linguagem">
+                <li class="card-linguagem flex">
                     <i class="devicon-html5-plain icone"></i>
 
                     <h3 class="titulo-linguagem">HTML 5</h3>
@@ -124,7 +124,7 @@
                     <p class="descricao-linguagem">Estruturar sites utilizando tags semânticas para aprimorar o reconhecimento e o rastreio do site pelos mecanismos de busca</p>
                 </li>
 
-                <li class="card-linguagem">
+                <li class="card-linguagem flex">
                     <i class="devicon-css3-plain icone"></i>
 
                     <h3 class="titulo-linguagem">CSS 3</h3>
@@ -132,7 +132,7 @@
                     <p class="descricao-linguagem">Estilizar sites utilizando tecnicas mais eficientes de display, como flex e grid, além do dominio das media querry facilitando a responsividade</p>
                 </li>
 
-                <li class="card-linguagem">
+                <li class="card-linguagem flex">
                     <i class="devicon-javascript-plain icone"></i>
 
                     <h3 class="titulo-linguagem">JavaScript</h3>
@@ -142,7 +142,7 @@
                         aliquid, magni ullam molestias nulla?</p>
                 </li>
 
-                <li class="card-linguagem">
+                <li class="card-linguagem flex">
                     <i class="devicon-git-plain icone"></i>
 
                     <h3 class="titulo-linguagem">Git</h3>
@@ -150,7 +150,7 @@
                     <p class="descricao-linguagem">Dominio do sistema de versionamento de código através do terminal</p>
                 </li>
 
-                <li class="card-linguagem">
+                <li class="card-linguagem flex">
                     <i class="devicon-github-original icone"></i>
 
                     <h3 class="titulo-linguagem">GitHub</h3>
@@ -165,11 +165,12 @@
 
             <ul class="container-projetos flex">
                 <li class="projeto">
+                    
                     <img src="./src/img/projetos/coin_lp.png" alt="Imagem do Projeto" class="projeto-img">
 
                     <div class="fundo-hover"></div>
 
-                    <div class="informacoes-projeto">
+                    <div class="informacoes-projeto flex">
                         <h3 class="titulo-projeto">Coin Landing Page</h3>
                         <p class="descricao-projeto">Foi um projeto feito durante as aulas do curso Dev Quest usando somente HTML e CSS, dedicado a praticar essas linguagens.</p>
                         <a href="https://vinicius-b-oliveira.github.io/landing-page-practice/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
@@ -181,7 +182,7 @@
 
                     <div class="fundo-hover"></div>
 
-                    <div class="informacoes-projeto">
+                    <div class="informacoes-projeto flex">
                         <h3 class="titulo-projeto">Advice Generator</h3>
                         <p class="descricao-projeto">Solução de um desafio usando somente HTML e CSS para criar a estrutura e a estética do site.</p>
                         <a href="https://vinicius-b-oliveira.github.io/advice-generator-html-css-only/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
@@ -193,7 +194,7 @@
 
                     <div class="fundo-hover"></div>
 
-                    <div class="informacoes-projeto">
+                    <div class="informacoes-projeto flex">
                         <h3 class="titulo-projeto">Huddle Landing Page</h3>
                         <p class="descricao-projeto">Solução para um desafio que consistia em recriar a landing page fornecida nas imagens usando somente HTML e CSS</p>
                         <a href="https://vinicius-b-oliveira.github.io/quest-huddle-lp/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
@@ -205,7 +206,7 @@
 
                     <div class="fundo-hover"></div>
 
-                    <div class="informacoes-projeto">
+                    <div class="informacoes-projeto flex">
                         <h3 class="titulo-projeto">NFT Card</h3>
                         <p class="descricao-projeto">Desafio que consistia em recriar o componente da forma mais fiel possível as imagens fornecidas, usando somente HTML e CSS</p>
                         <a href="https://vinicius-b-oliveira.github.io/nft-card/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
@@ -217,7 +218,7 @@
 
                     <div class="fundo-hover"></div>
 
-                    <div class="informacoes-projeto">
+                    <div class="informacoes-projeto flex">
                         <h3 class="titulo-projeto">Pokemon</h3>
                         <p class="descricao-projeto">Projeto feito em live com os mentores do curso DevQuest usando HTML, CSS e JavaScript e personalizado com as minhas particularidades</p>
                         <a href="https://vinicius-b-oliveira.github.io/projeto-pokemon/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
@@ -229,7 +230,7 @@
 
                     <div class="fundo-hover"></div>
 
-                    <div class="informacoes-projeto">
+                    <div class="informacoes-projeto flex">
                         <h3 class="titulo-projeto">Profile Card</h3>
                         <p class="descricao-projeto">Desafio que consistia em recriar o componente da forma mais fiel possível as imagens fornecidas, usando somente HTML e CSS</p>
                         <a href="https://vinicius-b-oliveira.github.io/profile-card/" class="btn-projeto" target="_blank"><i class="fa-solid fa-link"></i></a>
@@ -242,12 +243,12 @@
     <footer class="rodape flex" id="rodape">
         <h3>Me envie uma mensagem !</h3>
 
-        <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/vinicius-bueno-0808a1289" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://wa.me/5547997082903" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://github.com/Vinicius-b-oliveira" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.instagram.com/vini_bueno/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+        <ul class="redes-sociais">
+            <li><a href="https://www.linkedin.com/in/vinicius-bueno-0808a1289" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="https://wa.me/5547997082903" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://github.com/Vinicius-b-oliveira" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/vini_bueno/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
     </footer>
 </body>
 

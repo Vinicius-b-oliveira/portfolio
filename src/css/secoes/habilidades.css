@@ -7,17 +7,19 @@
     background-color: var(--cor-fundo-claro);
     max-width: 300px;
     min-height: 400px;
+    border: 2px solid transparent;
     border-radius: 20px;
     padding: 20px 30px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     transition: .2s ease-in-out;
     cursor: default;
-    border: 2px solid transparent;
 }
+
 .habilidades .card-linguagem .icone {
     color: var(--cor-destaque);
+    font-size: 6rem;
+    margin-bottom: 20px;
 }
 
 .habilidades .card-linguagem .titulo-linguagem,
@@ -25,13 +27,8 @@
     color: var(--cor-fonte-clara);
 }
 
-.habilidades .card-linguagem .icone {
-    font-size: 6rem;
-    margin-bottom: 20px;
-}
-
 .habilidades .card-linguagem .titulo-linguagem {
-    font-family: var(--fonte-text);
+    font-family: var(--fonte-titulo);
     font-weight: 700;
     font-size: var(--fonte-grande);
     margin-bottom: 30px;
@@ -46,7 +43,6 @@
 
 .habilidades .card-linguagem:hover {
     transform: scale(1.05);
-    background-color: #152B51;
     box-shadow: 0 0 30px #000000;
     border: 2px solid var(--cor-destaque);
 }

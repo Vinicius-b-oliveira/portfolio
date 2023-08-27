@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 html {
     font-size: 62.5%;
@@ -10,7 +9,7 @@ html {
 
 body {
     background-color: var(--cor-fundo-escuro);
-    font-family: var(--fonte-mono);
+    font-family: var(--fonte-texto);
     font-size: var(--fonte-media);
 }
 
@@ -55,7 +54,7 @@ body {
     margin: 200px 0 100px;
     font-size: 5rem;
     color: var(--cor-fonte-clara);
-    font-family: var(--fonte-text);
+    font-family: var(--fonte-titulo);
     text-align: center;
 }
 
@@ -67,6 +66,6 @@ body {
 
 @media (max-width: 300px) {
     .titulo-secao {
-        font-size: 3rem;
+        font-size: var(--fonte-gigante);
     }
 }

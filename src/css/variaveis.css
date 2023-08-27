@@ -8,8 +8,8 @@
 }
 
 :root {
-    --fonte-text: 'Inter', sans-serif;
-    --fonte-mono: 'Raleway', sans-serif;
+    --fonte-titulo: 'Inter', sans-serif;
+    --fonte-texto: 'Lato', sans-serif;
     --fonte-logo: 'Lily Script One', cursive;
     --fonte-pequena: 1.4rem;
     --fonte-media: 1.6rem;

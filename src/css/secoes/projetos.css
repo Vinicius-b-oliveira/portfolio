@@ -34,7 +34,6 @@
 }
 
 .container-projetos .projeto .informacoes-projeto {
-    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -52,7 +51,7 @@
 .projeto .informacoes-projeto .titulo-projeto {
     font-size: var(--fonte-extra-grande);
     font-weight: 800;
-    font-family: var(--fonte-text);
+    font-family: var(--fonte-titulo);
     margin-bottom: 10px;
 }
 
@@ -60,6 +59,7 @@
     font-weight: 500;
     font-size: 1.7rem;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .projeto .informacoes-projeto .btn-projeto {
@@ -82,14 +82,13 @@
 
 @media (max-width: 450px) {
     .container-projetos .projeto .informacoes-projeto {
-        max-height: 100%;
+        height: 100%;
         overflow-y: scroll;
     }
 
     .projeto .informacoes-projeto .titulo-projeto {
         font-size: var(--fonte-grande);
         font-weight: 800;
-        font-family: var(--fonte-text);
         margin-bottom: 10px;
     }
 

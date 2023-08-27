@@ -20,13 +20,13 @@
 
 .home .apresentacao h1 {
     color: var(--cor-fonte-clara);
-    font-family: var(--fonte-text);
+    font-family: var(--fonte-titulo);
     font-size: 4rem;
 }
 
 .home .apresentacao h2 {
     color: var(--cor-fonte-media);
-    font-family: var(--fonte-text);
+    font-family: var(--fonte-titulo);
     font-size: var(--fonte-gigante);
     margin-bottom: 30px;
 }
@@ -60,20 +60,20 @@
 }
 
 @media (max-width: 500px) {
-    .home .apresentacao h4{
-        font-size: 1.4rem;
+    .home .apresentacao h4,
+    .redes-sociais a{
+        font-size: var(--fonte-pequena);
      }
      
      .home .apresentacao h1 {
-         font-size: 3rem;
+         font-size: var(--fonte-gigante);
      }
      
      .home .apresentacao h2 {
-         font-size: 2.5rem;
+         font-size: var(--fonte-extra-grande);
      }
 
      .redes-sociais a {
-        font-size: 1.4rem;
         padding: 10px;
         width: 30px;
         height: 30px;
