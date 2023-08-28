@@ -1,4 +1,4 @@
-# 👉 Portfólio de Projeto Pessoal - Vinícius Bueno de Oliveira 👈
+# 👉 Portfólio de Projetos Pessoais - Vinícius Bueno de Oliveira 👈
 
 🚀 Bem-vindo ao meu portfólio de projetos pessoais! Meu nome é Vinícius Bueno de Oliveira e este é o lugar onde compartilho os projetos que desenvolvi. Aqui, você encontrará uma coleção de trabalhos que demonstram minha paixão pelo desenvolvimento web e minha habilidade de criar interfaces incríveis utilizando HTML e CSS.
 
@@ -19,7 +19,7 @@ Este portfólio foi criado para apresentar meus projetos pessoais e destacar min
 
 🔥 Desenvolver um portfólio pessoal foi uma oportunidade incrível para aplicar minhas habilidades de design e programação. Enfrentei o desafio de criar uma interface atraente e responsiva, garantindo que meu portfólio seja acessível em diversos dispositivos.
 
-## 📸 Visuals 📸
+## 📸 Visuais 📸
 
 Você pode visualizar algumas imagens do site !
 
@@ -33,7 +33,7 @@ Você pode visualizar algumas imagens do site !
 
 ## 🌐 GitHub Pages
 
-O projeto está hospedado no GitHub Pages. Você pode acessá-lo [aqui](link_para_o_github_pages).
+O projeto está hospedado no GitHub Pages. Você pode acessá-lo [aqui](https://vinicius-b-oliveira.github.io/portfolio/).
 
 ## 🏃‍♂️ Como Executar o Projeto 🏃‍♀️
 
