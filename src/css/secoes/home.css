@@ -46,6 +46,7 @@
 .home .img-container img {
     border-radius: 50%;
     box-shadow: 1px 1px 20px #112240;
+    max-width: 400px;
 }
 
 @media (max-width:1125px) {
