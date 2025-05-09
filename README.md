@@ -8,6 +8,10 @@
 
 Este portfólio foi criado para apresentar meus projetos pessoais e destacar minhas habilidades em desenvolvimento web. Utilizei somente HTML e CSS para construir este projeto, com o objetivo de demonstrar minha proficiência nessas tecnologias fundamentais.
 
+## 🌐 GitHub Pages (Deploy)
+
+O projeto está hospedado no GitHub Pages. Você pode acessá-lo [aqui](https://vinicius-b-oliveira.github.io/portfolio/).
+
 ## 🚧 Desafios Enfrentados 🚧
 
 🔥 Desenvolver um portfólio pessoal foi uma oportunidade incrível para aplicar minhas habilidades em programação. Enfrentei o desafio de criar uma interface atraente e responsiva, garantindo que meu portfólio seja acessível em diversos dispositivos.
@@ -24,11 +28,8 @@ Você pode visualizar algumas imagens do site !
 
 🔮 Estou sempre procurando maneiras de melhorar meu portfólio. No futuro, pretendo adicionar mais projetos interessantes e interativos, bem como reconstruir o mesmo utilizando ReactJs.
 
-## 🌐 GitHub Pages
 
-O projeto está hospedado no GitHub Pages. Você pode acessá-lo [aqui](https://vinicius-b-oliveira.github.io/portfolio/).
-
-## 🏃‍♂️ Como Executar o Projeto 🏃‍♀️
+## 🏃‍♂️ Como Executar o Projeto Localmente 🏃‍♀️
 
 Para executar este projeto localmente, siga estas etapas:
 
